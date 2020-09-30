@@ -5,6 +5,7 @@ import 'package:mychat/modulos/home/widgets/conversa_item.dart';
 import 'package:mychat/modulos/perfil/perfil.dart';
 import 'package:mychat/modulos/perfil/perfil_icon.dart';
 import 'package:mychat/preferences.dart';
+import 'package:mychat/utils.dart';
 
 class Home extends GetView<HomeController> {
   @override
@@ -21,7 +22,7 @@ class Home extends GetView<HomeController> {
             pinned: true,
             title: Padding(
               padding: const EdgeInsets.only(left: 8),
-              child: Text('Whatsapp'),
+              child: Text('MyChat'),
             ),
             actions: [IconButton(icon: Icon(Icons.search), onPressed: () {})],
             expandedHeight: 150,
